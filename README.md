@@ -1,8 +1,11 @@
 # Clone Like OpenAI ChatGPT
-This repo is just for the learning purpose
+This repo is just for learning purpose
 
-# 1. Chatbot using python, groq & streamlit
-This repo contains the codebase for the chatbot application developed using python and OPENAI
+![image](https://github.com/user-attachments/assets/ee06230b-a586-4978-820c-969c80ce3ff3)
+
+
+# 1. Chatbot using Python, groq & streamlit
+This repo contains the codebase for the chatbot application developed using Python and OPENAI
 
 ## Prerequisite
 - Python, Download it from [Here](https://www.python.org/downloads/)
@@ -19,26 +22,26 @@ This repo contains the codebase for the chatbot application developed using pyth
 ## Session State in Streamlit
 - a python object that exists in memory for the users/application to use
 
-1. For the steamlit application the sessions exists as long as the user keeps the tab open
-2. OR the application maintains the active connection between the front-end with back-end
+1. For the Steamlit application the sessions exist as long as the user keeps the tab open
+2. OR the application maintains the active connection between the front-end and the back-end
 
-Sessions are mainted separately for every users. For example if user a is using the app in USA and user B is using it in India then both the sessions will not impact each others session
+Sessions are maintained separately for every user. For example,if user A is using the app in the USA and user B is using it in India then both sessions will not impact each other session
 
 Session State
 - Session is what happens in the browsers, the actions taken by the users
-- State is how we capture that session and store the current value of the widget to use them later 
+- State is how we capture that session and store the current value of the widget to use later 
 
-Session State is like a Dictionaries({}) where we can add the key and value pair to access it later for usage purpose
+Session State is like a Dictionaries({}) where we can add the key and value pair to access it later for usage purposes
 
-## Create Virtual Environent
+## Create Virtual Environment
 
-We are going to use anaconda for creating the virtual environment. You can download anaconda from here.
-use below command to create the virtual environment
+We are going to use Anaconda for creating the virtual environment. You can download Anaconda from here.
+use the below command to create the virtual environment
 ```
 conda create -p venv python==3.12
 ```
-After you have created the virtual environment you need to activate the virtul environemnt. 
-To activate the environment use below command
+After you have created the virtual environment you need to activate the virtual environment. 
+To activate the environment use the below command
 ```
 conda activate venv
 ```
